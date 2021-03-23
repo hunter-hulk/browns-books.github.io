@@ -1,0 +1,124 @@
+/* Color scheme  #4A75E0,#4644d4*/
+
+
+html {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    flex: 0 0 auto;
+    border-top: #0A0461;
+    border-top-width: 7px;
+    border-top-style: solid;  
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05),0 1px 4px rgba(0,0,0,0.05),0 2px 8px rgba(0,0,0,0.05);;
+}
+
+
+.main-logo {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 300px;
+    height: inherit;
+}
+
+.main-logo:hover svg {
+    fill: #4A75E0;    
+}
+
+.kids-logo {
+    /* margin-left: 5px; */
+    margin-top: 5px;
+    width: 80px;
+    height: inherit;
+    border-left: 2px solid #000;
+    padding-left: 8px;
+}
+
+.kids-logo:hover {
+    -webkit-filter: brightness(70%);
+}
+
+body {
+    background-color: #f5f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* nav */
+nav {
+    display: flex;
+    background-color: whitesmoke;
+    padding-right: 20PX;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    padding-left: 8px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: transparent;
+    color: #4A75E0;
+}
+
+nav a:active {
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    width: 100%;
+    justify-content: start;
+    height: 100%;
+}
+
+.top-image img {
+    width: 100%;
+    height: inherit;
+}
+
+.events {
+    margin: 10px;
+    padding: 5px;
+    border-width: 3.5px;
+    border-style: outset;
+    border-color: #0A0461;
+    border-radius: 5px;
+    }
+
+
+
+
+
+
+footer {
+    background-color: #0070C0   ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-right: 5px;
+    flex: 0 0 60px;
+}
